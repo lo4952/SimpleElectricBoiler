@@ -1,7 +1,8 @@
 local entityboiler = table.deepcopy(data.raw["boiler"]["boiler"])
+local effectivity = entityboiler.energy_source.effectivity
 local entityoverride = {
     name = "electric-boiler",
-    energy_consumption = "1.8MW",
+    energy_consumption = (1.8 * effectivity) .. "MW",
     minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler"},
     energy_source =
     {

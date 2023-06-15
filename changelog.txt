@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2023-06-15
+  Bugfixes:
+    - Modded changes to the vanilla boiler 'effectivity' will be reflected in the Electric Boiler.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2023-06-14
+  Features:
+    - Adds an electric boiler with power consumption and production identical to the vanilla boiler.
+    - Technology and recipe available with Tier I (Automation) Science Packs.

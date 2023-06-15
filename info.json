@@ -1,6 +1,6 @@
 {
     "name": "simpleelectricboiler",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "title": "Simple Electric Boiler",
     "author": "lo4952",
     "description": "Adds an Electric Boiler for on-demand steam. Designed for simplicity and compatibility.",
